@@ -1,0 +1,98 @@
+.btnUp{
+    height: 70px;
+    width: 70px;
+    background: transparent;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 6;
+}
+
+
+.loader{
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    z-index: 10;
+    background: white;
+    width: 100%;
+    max-width: 1500px;
+    height: 100%;
+    opacity: 0.97;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    animation: loading 4s forwards;
+}
+
+.loader-Seguro{
+    font-family: 'Roboto Slab';
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    width: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenue-loader{
+    font-size: 5rem;
+    letter-spacing: 2rem;
+    font-family: 'Bebas Neue';
+    animation: bas 3s, ease-in-out forwards ;
+}
+.villa-loader{
+    margin-right: 50px;
+    animation: gauche 1.5s, ease-in-out forwards;
+}
+.Seguro-loader{
+    animation: droite 1.5s, ease-in-out forwards;
+}
+
+@keyframes droite{
+    0% {
+        transform: translateX(1000%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes gauche{
+    0% {
+        transform: translateX(-1000%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes bas{
+    0% {
+        transform: translateY(1000%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+@keyframes loading{
+    0% {
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .btnUp{
+        display: none;
+    }
+}
+
