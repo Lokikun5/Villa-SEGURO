@@ -11,7 +11,7 @@ btnUp.addEventListener('click', () =>{
 })
 
 window.addEventListener("scroll", () =>{
-    if (window.scrollY > 500) {
+    if (window.scrollY > 1500) {
         i.style.color = "#FFFFFF";   
     }else {
         i.style.color = "#1E1E1E"; 

@@ -19,7 +19,6 @@
       <a class="linkS" href="#"><img class="imginsta" src="./assets/icon/240px-Instagram_icon.png" alt="Seguro - retrouvez nous sur instagram"></a>
     </div>
     <div class="footerInfo"><router-link to="/Plan-du-site">Plan du site</router-link></div>
-
   </footer>
 </template>
 
@@ -42,7 +41,7 @@ nav {
 }
 
 nav a {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 1.1em;
   color: #000000;
   padding: 20px;
@@ -50,8 +49,8 @@ nav a {
 }
 
 a:hover{
-  color: #e6ac56;
-  font-size: 1.5em;
+  color: #679E5A;
+  font-size: 1.4em;
 }
 nav a.router-link-exact-active {
   font-weight: 600;
@@ -73,18 +72,9 @@ nav a.router-link-exact-active {
   justify-content: center;
   flex-direction: row;
   align-items: center;
-  animation: apparition 1s ;
   
 }
 
-@keyframes apparition{
-  from{
-    opacity: 0;
-  }
-  to{
-    opacity: 1;
-  }
-}
 
 .border-nav{
   border: 2px solid rgb(25, 22, 22);
@@ -93,9 +83,9 @@ nav a.router-link-exact-active {
 
 }
 .border-nav:hover{
-  border: 2px solid #e6ac56;
-  transition-duration: 500ms;
-  box-shadow: 30px -10px black;
+  border: 2px solid #4CA56B;
+  transition-duration: 200ms;
+  box-shadow: 1px -2px 5px black;
 }
 footer {
   font-family: 'Roboto Condensed';

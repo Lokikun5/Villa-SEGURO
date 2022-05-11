@@ -2,6 +2,8 @@
 
 # Démo en vidéo  https://youtu.be/aS3AiG0GicQ
 
+# Démo en vidéo 2 https://youtu.be/KNnDtgUHaqU
+
 ## Project setup
 ```
 npm install
